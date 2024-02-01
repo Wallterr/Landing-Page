@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#title{
+    color: #FFFF;
+    margin-top: 50px;
+    margin-left: 172px;
+    font-size: 40px;
+}
+
+#subtitle{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 172px;
+    margin-bottom: 90px;
+    color: #FFFF;
+
+}
+
+#menuSuperior{
+    background-image: url(imagens/backgroundTitle.svg);
+    background-size: cover;
+    padding: 100px;
+}
+
+#menuInformation{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 10px;
+}
+
+.textInformation{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titleVideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    color: #FFFF;
+    height: 400px;
+}
+
+#textCarrossel{
+    padding: 60px;
+    text-align: center;
+}
+
+#divCard{
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: 150px;
+    
+}
+
+.card{
+    margin-left: 150px;
+}
+
+#setaEsquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 65px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.4s;
+}
+
+#form{
+    text-align: center;
+}
+
+#titleForm{
+    font-size: 32px;
+    margin-top: 22px;
+    color: #383838;
+    margin-bottom: 35px;
+}
+
+input{
+    width: 413px;
+    height: 30px;
+    border-radius: 10px;
+    background: #EAECE5;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+button{
+    width: 335px;
+    height: 53px;
+    background-color: #247BA0;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 100px;
+    margin-top: 15px
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translatey(-7px);
+    transition-duration: 0.4s;
+    box-shadow: 0px 15px 10px 0px #1f3c49;
+    color: #f0f3f5;
+}
